@@ -1,0 +1,555 @@
+ATTACKS AND VULNERABILITIES
+ A vulnerability is  flaw in internal security controls, system processes, information systems, infrastructure or programs.
+
+A few instances of vulnerabilities are
+- a firewall flaw that enables hackers to access a computer network
+- absence of security cameras
+- unlocked enterprise doors that make a business setting accessible to unauthorized individuals
+
+*an exploitable vulnerability is one that has at least one specific attack vector
+
+There are instances where a vulnerability is not actually exploitable, the causes are as follows
+-Insufficient knowledge about individuals that attackers could utilise to their advantage to launch an attack
+-The attacker does not have access to the local system or prior authentication
+-Current security measures
+
+Attacks - Various tools, scripts and programs are utilised by attackers to launch offensive attacks against networks and other network devices. Endpoints such as servers and desktops are typically the network devices that are attacked.
+
+There are primarily 4 kinds of attacks
+
+-Reconnaissance - Reconnaissance also referred to as recon/information gathering is an unauthorised discovery and mapping of systems, services and vulnerabilities. It typically comes before an actual access or DoS attack.
+-Access - System access refers to a person's ability to manipulate a device without a password or an account and access it without authorization To get into or manipulate a system without actual access/permission, a hacker is required to run a hack, script or tool that takes advantage of a known flaw in the system or application.
+
+Denial of Service - Denial of Service is an attack where an attacker turns off or disrupts networks, systems or services in order to stop the application from working for the intended users. DoS attacks either cause the system to crash or slow it down so much that it cannot be utilised.
+
+Worms, Viruses and Trojan Horses A computer virus is a programme that is intentionally placed into a user's computer and runs without user's knowledge or permission. A computer programme or operating system makes a virus copy itself through normal operations. For this, it requires a host. A Trojan Horse, on the other hand, is usually a malicious programme that does not copy itself. This is the main difference between a Trojan horse and a virus. Trojan horses often come as attachments to emails with names that sound interesting enough for the users to open them.
+
+Footprinting and Reconnaissance
+
+Footprinting is a type of ethical hacking that gathers as much information as possible about a computer system, its infrastructure and its networks in order to find ways to get into the system. It is one of the most effective methods for detecting loopholes in security. In cybersecurity footprinting, organisations are profiled and information about their network, host, employees and third-party partners is collected. This information includes the organisation's operating system, firewalls, network maps, IP addresses, Domain Name System information, security settings for the target machine, URLs, Virtual Private Networks, staff identity numbers, email accounts and contact information. There are two distinct kinds of foot printing:
+
+Active Footprinting
+
+Passive Footprinting
+
+Active Footprinting - Active footprinting is the practice of gathering information about a target utilising tools and techniques such as traceroute commands or Internet Control Message Protocol (ICMP) sweep. When this occurs, target's Intrusion Detection Systems (IDS) is likely to activate that are designed to detect and block unauthorised activity. Successfully avoiding detection calls for a certain measure of stealth and ingenuity
+
+Passive Footprinting - The term passive footprinting refers to the practice of gathering information about a target without drawing attention to the fact that information is being collected. This can be done by performing a Google search, perusing Archive.org. employing Neo Trace, checking out staff members' social media profiles, perusing job boards and consulting WHOIS (a service that lists the domains and associated networks for a given organisation). This method does not trigger the target's IDS. Therefore, this method of foot printing is more covert.
+
+Advantages of footprinting -
+
+1. Ethical hackers utilise footprinting techniques to discover and patch vulnerabilities in their networks before malicious actors can take advantage of them. The community can compile a list of vulnerabilities and security loopholes.
+
+2 Ethical hacking techniques such as footprinting assist businesses in identifying and securing IT infrastructure before a threat actor exploits a vulnerability Users can also create a database of known flaws and vulnerabilities.
+
+Other types of footprinting -
+
+DNA footprinting is a way to find the part of the nucleus that binds to proteins An ecological footprint is an approach to measure human demand for natural capital or resources. It computes the natural resources required to sustain a population or economy Ecological footprinting employs an environmental accounting system to keep track of this dermand
+
+A digital footprint describes one's distinct, traceable digital activities These include actions, communications and contributions made on the Internet or through digital services. Digital prints can be active or passive
+
+Reconnaissance The first step of ethical hacking is to collect information and comprehend the target system. Reconnaissance is a set of methods and processes such as footprinting. scanning and enumeration used to find out about a target system without being noticed. It is an essential step in tracking down and stealing sensitive information. Conducting thorough recon would equip attackers with comprehensive information. In this way recon is utilised for penetration testing in information security
+
+By leveraging recon, the attacker communicates with the network's open ports, active services and so on to gather information without actively connecting to the Web. Accessing networks outside the Internet is made easier with the information it offers. In essence, recon is a treasure trove of important information that can be easily exploited.
+
+However, the time it can take a recon to enter networks is still being determined. It can take from weeks to months. Even if a recon does not get into any information systems, it could still cause a data breach by gathering all private information simultaneously and abuse networks.
+
+During reconnaissance, an ethical hacker follows these seven steps to learn as much as they can
+
+about a target system:
+
+Gathering preliminary data and information
+Determining the range of the network
+Recognising running machines
+Finding available ports and access points
+Utilising the operating system's fingerprint to identify it
+Locating services at ports
+Mapping a network
+
+An attacker carries out following actions to discover more about a network
+
+File access rights
+Carrying out network services
+OS Platform
+Trust relationships
+User information
+
+There are two main types of reconnaissance
+
+Active Reconnaissance
+Passive Reconnaissance
+
+Active Reconnaissance Cybercriminals utilise tools such as automated scarining, manual testing, ping and Netcat to find information about computer systems. This is called active reconnaissance. Active reconnaissance is normally more efficient and precise than passive reconnaissance as it makes more noise and is more likely to be caught.
+
+Passive Reconnaissance Tools such as Wireshark and Shodan are utilised in passive reconnaissance to gather information without directly interacting with systems OS.
+
+Fingerprinting is another way to conduct reconnaissance and collect information without directly interacting with systems By utilising passive reconnaissance, the framework or application information is obtained without interacting with through Web searches and free reports.
+
+With passive reconnaissance the framework is not likely to know the IP address It is also possible to gather information about a target system or network without actively engaging with it. By doing this, the target does not get a request, so it remains unaware that information is being collected about it. Most of the time, it involves collecting data from publicly available sources such as SOCIAL MEDIA, SEARCH ENGINES, NETWORK TRAFFIC  and so on.
+
+One more source is Open-Source Intelligence (OSINT), which is the process of getting data from places that are open to the public. OSINT is utilised to find IP addresses, domain names, email addresses, hostnames, Domain Name System (DNS) records and even the software running on a Website and the Common Vulnerabilities and Exposures (CVES) that go with it
+
+FOOTPRINTING THROUGH SEARCH ENGINES
+
+Footprints show what social networking sites and other Websites people visit, what information they look at and for how long, who their friends on social sites (such as Facebook) are and when they were last online. All this data is available while clicking Google Search Engine or several other specialised search engines.
+
+In general, Websites and search engines such as Google and Bing leave a footprint by giving out an individual's name, address, phone number and other crucial information. This information is then saved so that anyone can find it. Through search engines and other online tools, it is possible to obtain a wealth of information about a person, including their education, work experience. hobbies and interests. Several software tools are available that reveals an individual's crucial information. For example, email passwords can be hacked which can then be utilised by cybercriminals to do malicious activities. If an attacker is able to gain access to someone's email account, they can potentially view sensitive information, such as personal emails, contacts and even financial information. They can also utilise the compromised account to send spam or phishing emails to the target's contacts or to distribute malware
+
+FOOTPRINTING THROUGH WEB SERVICES
+
+FINDING AN ORGANIZATIONS TOP-LEVEL DOMAINS AND SUB-DOMAINS
+
+Search engines such as Google and Bing can be utilised to find external URLs of a target organisation, which can provide valuable information about the organisation's online presence and top-level domains. In addition to top-level domains, sub-domains can assist in identifying various divisions and businesses that make up the target organisation
+
+-Sub-domains of any target organisation can be found by trial and error utilising search engines
+-Google Dorking is an example
+-Through the utilisation of services such as Netcraft, Sublist3r 
+-Identifying the precise location of the target on the world map
+
+An attacker can more easily find the geographic location of the target with the assistance of Google Earth Google Maps and WikiMapia. This also lets attackers learn about the target's property such as the location of cameras, entrance and exit gates and so on
+
+Social Networking Sites and People Search Services:
+	 Attackers have access to a plethora of valuable personal information about the target on social networking sites such as Facebook and Instagram, including the target's date of birth, location relationships employers and so on. Thes knowledge is can be utläised to help create social engineering attacks in addition, online directories and services such as Intelius. Pipt BeenVenfied Whitepages and Peek are utilised to conduct searches
+
+Using Linkedin to Collect Data:
+	Enumeration can be carried out on Linkedin by attackers to find employees of the target organisation and job titles for those employees With this information, attackers can easily profile employees of the target organisation and plan engineering attacks.
+
+Obtaining Email Lists:
+	 Automated tools such as Harvester or email spiders help attackers collect email addresses that are publicly available for the organisation that is the target of the attack.
+
+Gather Information from Financial Services:
+	Online financial services such as Google Finance and Yahoo Finance offer a wealth of information regarding a organisation's valuation and its shares, businesses and other aspects of its competitors. These details help attackers carry out phishing or social engineering attacks.
+
+Footprinting through Job Sites:
+	Attackers can gather information about the profiles of employees as well as the software and hardware used in an organisation through job posting sites such as Linkedin and Glassdoor
+
+Deep and Dark Web Footprinting:
+	 The 'deep Web' refers to the Web pages and contents that are not usually indexed by search engines and Web crawlers. These pages and its contents are hidden on the Web. It is attainable through search engines such as Tor. The dark Web is a part of the deep Web. Deep searches of Web browsers such as Tor browsers and many others provide access to the Website.
+
+Determining the Operating System:
+There are two methods available for determining the operating system of a target system:
+
+Active Reconnaissance - With Nmap, it is possible to actively probe a target machine by sending packets. When the Nmap command is run with the -O switch, an operating system fingerprint is generated.
+
+Passive Reconnaissance: Here, search engines such as Shodan and Censys is utilised to obtain information about connected devices.
+
+SOCIAL ENGINEERING ATTACKS
+
+Social Engineering describes various malicious actions through interactions with others. For example, using psychological manipulation, users are duped into divulging sensitive information or making security mistakes.
+
+Attacks involve one or more steps. For example, a perpetrator first conduct extensive research on the target to learn background details such as potential points of entry and lax secunty measures to prepare for an attack. The attacker then, tries to win the victim's trust to offer incentives for later actions against security protocol such as disclosing private information or granting access to vital resources.
+
+Unlike traditional hacking methods that exploit software and operating system vulnerabilities. social engineering relies on exploiting human weaknesses and fallibilities. This makes it an especially dangerous. In addition, user mistakes are much harder to predict, which makes them harder to find and stop than malware-based attacks
+
+SOCIAL ENGINEERING ATTACK TECHNIQUES
+Social engineering attacks can be carried out anywhere there is a chance of human interaction
+The five most typical types are listed as follows:
+
+Baiting
+Scareware
+Pretexting
+Phishing
+Spear Phishing
+
+Baiting-As the name implies, baiting attacks pique a victim's curiosity or sense of greed by making a fictitious promise. To steal users' personal information or infect their systems with malware, they manipulate users into falling for their ruses. The most disgusting kind of baiting disseminates malware via tangible media. Attackers frequently utilise infected flash drives as bait, leaving them in places where potential victims are sure to see them. The victims pick up the trick out of curiosity and insert it into their home or office computer prompting the machine to download malware. Baiting occurs online when users click tempting advertisements that lead them to malicious Websites or encourage them to download malicious software.
+
+Scareware - Scareware inundates victims with fabricated dangers and alarms. Users are duped into thinking their computer has malware, which prompts them to install software that either benefits the abuser or is malware in and of itself. Scareware is also known as forgery, spoofing and malicious scanner software. Scareware typically appears as legitimate-looking pop-up windows and banner ads in your browser At the same time, you browse the Internet and display text that says "Your computer may be infected Either it seems to offer to download the malicious app for you or it directs user to a malicious site that infects the computer Scareware is frequently spread through spam emails that send false signals or urge receivers to buy harmful or useless services
+
+Pretexting:  Here, an assailant skilfully crafts a series of lies to obtain information Frequently, the con is started by a perpetrator who claims to require the victim's personal information to complete a necessary task. By pretending to be a colleague, policeman, bank or tax official or another person with the authority to know something, the attacker starts by winning the victim's trust Then in the form of a questionnaire, the imposter appears to be asking for sensitive or private details about the victim discovered. This fraud is used to obtain vital data and records, including SSN's, bank information, and even details about the security of a physical plant.
+
+Phishing - Email and text or email campaigns, known as phishing scams, are among the most popular social engineering attacks. They are intended to make recipients feel hurried, curious or afraid. After that, it asks the user to reveal personal information, follow links to malicious Websites or open malware-infected attachments. An example would be an email warning user of an online platform that they have violated a policy and require immediate action such changing their passwords. It includes a connection to a malicious site that resembles its legitimate counterpart exactly. The unwary user is prompted to enter the login credentials and a new password. Upon submitting the form, the attacker receives the data. Phishing campaigns often utilise similar or identical messages in their emails, which makes it easier for email services with access to threat-sharing platforms to recognise and block them.
+
+Spear Phishing - This is a focused phishing scam in which the attacker picks particular people or organisations to target. The messages of the target is then modified based on their victims' traits, positions and contacts to make the attacks less prominent. Spear phishing is much more challenging and can take weeks or even months. In addition, they are much more difficult to detect if done expertly and have higher success rates. For example, an attacker can send an email to one or more employees of an organisation while posing as its IT consultant in a spear phishing attack. It is written and signed precisely as the consultant would, leading recipients to believe it is an actual message. Recipients of the message are urged to change their passwords and a link in the message directs them to a malicious page where the attacker can now steal their credentials
+
+NETWORK SCANNING
+Network scanning is looking for security flaws on a system's active devices. It locates and analyses the connected devices by deploying one or more features in the network protocol These features detect vulnerability signals and inform about the network's security status
+
+Network scanning makes system maintenance, tracking and security evaluations easier In addition, when utilised correctly, network scanning can provide information on some of the top defences against cyberattacks on the network
+
+Innovative solutions simplify network scanning Working with network administrators can be a cost-effective way to implement network scanning To evaluate IP addresses and find active hosts connected to the network, network administrators scan the network Cybercriminals employ the same method to identify vulnerabilities in user network. The goal is to locate the weaknesses even before hackers do.
+
+To find out how addresses are implemented in the network, network administrators have to utilise tools such as Nmap. Nmap is a reliable network scanning tool that looks for connected devices using IP packets. It facilitates the simplification of IP address mapping. Network scanners is utilised with the assistance of network administrators to examine the areas of office where the network is stronger or weaker. A fundamental working principle of network scanning is to locate every device connected to a network and map each IP address. To accomplish this, a packet is forwarded to every available IP address on the Web utilising the network scanner. When conducting a ping sweep, it is important to watch for responses from the devices being pinged in order to identify active devices on the network. After the feedback is received, the network scanner utilises it to assess the host's or application's condition and consistency issues. The responding devices are active, while the non-responding devices are inactive during this process. Network administrators can manually assess the system through Address Resolution Protocol (ARP) scan.
+
+However, it is advised to utilise tools that support automatic, running scans if the network administrator's goal is to reach all active hosts.
+
+The Internet Control Message Protocol (ICMP) scan is one of the best tools to reach this goal. It
+
+enables mapping the network precisely and successfully. Many security-conscious businesses purchase advanced network scanning tools with large budgets to protect their networking infrastructure However, if chosen poorly, desired outcome is not obtained. Acunetix, Nikto, Spyse. Swascan, IP Address Manager and SolarWinds Network Performance Monitor are among the efficient scanning tools.
+
+Properly scanning the network requires proper tools and methods. Port scanning and vulnerability scanning are the two most common types of network scanning.
+
+Port Scanning:
+	Port scanning identifies open network ports that can receive or transmit data It sends packets to specific device ports. This procedure identifies flaws and evaluates performance feedback Before implementing port scanning, it is necessary to compile a list of active devices and map their IP addresses. The primary objective of port scanning is to determine the security of a network by gathering information from active devices.
+
+Vulnerability Scanning:
+	Scanning for vulnerabilities allows to detect vulnerabilities on the network. A system scan reveals threats that were previously hidden. In the majority of businesses, vulnerability scanning is performed by the IT department. However, consider hiring a third-party security expert to obtain comprehensive feedback. As they are unfamiliar with the network, they will conduct an objective analysis from an outsider's perspective Cyberattackers can also perform vulnerability scanning to identify weak points in a network. It is, therefore, essential to obtain upper hand by identifying and eliminating the weak links before the competitors do. In addition to recognising security loopholes, vulnerability scanning evaluates network's resistance to cyberattacks. Utilising a database, it analyses potential attacks. This database includes the vulnerability scanner with packet construction inconsistencies, faults, de facto configurations, paths to sensitive data and coding errors that cybercriminals can exploit to gain access to the network.
+
+What are the Benefits of Network Scanning?
+
+Enhanced Network Efficiency - Scanning the network is essential for increasing network performance and maximising network operations speed. For example, multiple subnets with varying IP addresses are assigned to various devices in a complex organisationál network to improve their performance on the system. Scanning these devices allows for optimal performance by removing obstructions and creating a free flow
+
+Cyberdefense Against Cyberattacks - Network scanning can be a very helpful tool for identifying vulnerabilities and threats on a network. However, if network scanning is not done regularly and thoroughly, it can leave the network vulnerable to attacks by malicious hackers. Regular network scanning is an effective method for preventing cyberattacks on a system
+
+Save Money and Time Manually scanning your network is laborious and time- consuming specially for large or complex networks. This can result in significant downtime for the network and can lead to long-term financial losses for the organisation.
+
+
+ENUMERATION
+Phase 3 of penetration testing, also known as ethical hacking, is enumeration. By exploiting the vulnerabilities found in the first two phases, the system can be completely accessed While scanning is an important first step in identifying vulnerabilities in a system, it only provides partial information about potential weaknesses. 
+Enumeration, on the other hand, goes deeper and provides a more comprehensive view of a system's architecture and configuration, including users, groups and even system-level information such as routing tables. Getting comprehensive knowledge of what will be tested in the targeted system is the goal of this phase of ethical hacking. To have total control over the system, tools are utilised.
+
+Enumeration is considered very important element of ethical hacking. In the subsequent stages of penetration testing, the metrics, outcomes and results are directly applied to testing the system. Hostnames, IP tables, SNMP and DNS, applications, banners, audit configurations and service settings are all examples of detailed information that enumeration aids in deciphering. Enumeration is important because it systematically gathers information. This makes it possible for pen testers to fully inspect the systems. In the enumeration stage of ethical hacking, the pen testers gather data regarding the weak links. Finding the known attacks and threats is made easier with enumeration.
+
+Usernames, computer names, system resources, shares and services are all extracted from the ecosystem through the process of enumeration. The enumeration process can become scalable thanks to a strong toolbox. Hardware and software systems are mixed in this. Software tools for the enumeration are available both for free and for a fee. Keyloggers and specialised wireless hardware make up most of the hardware tools. Testers determine the best and most efficient approach to each system component.
+
+INFORMATION TYPES LISTED BY INTRUDERS:
+
+Information types listed by intruders are as follows:
+
+Source of the Network or the victim's network
+Users and groups stored in the device Routing tables, ARP tables
+Audit logs and settings
+Service configuration settings Various user machine names
+Applications installed
+Banners stored
+SNMPv1 and SNMPv2 details Domain name details
+
+MALWARE ATTACKS
+Any malicious software intended to harm or damage a computer, server, client, computer network and/or infrastructure without the knowledge of the end user is considered a malware attack Malware is created, utilised and sold by online criminals for a variety of purposes, but it is most frequently utilised to steal personal, financial or business data Cyber attackers almost always concentrate their Tactics, Techniques and Procedures (TTPs) on obtaining privileged credentials and accounts in order to complete their mission, despite the fact that their motivations can vary.
+
+TYPES OF MALWARE ATTACKS
+Most malware types can be classified into one of the categories which are summarsed as follows
+
+Replication:
+	A computer virus can replicate itself by altering other programs and introducing its malicious code when it is run. It is the only kind of malware that has the ability to infect other files and it is also one of the trickiest to get rid of
+
+Worm:
+	Worms are a type of malware that can quickly spread through networks by moving from one machine to another They have the ability to self-replicate without the involvement of end users, which implies that they can spread rapidly and infect large numbers of machines in a short amount of time.
+
+Trojan:
+	One of the hardest forms of malware to find, Trojan malware impersonates a trustworthy programme. When executed by the victim, this kind of malwari's malicious code and instructions can function covertly. It is frequently employed to allow various kinds of malware into the system.
+
+Malware that is a hybrid of other types of malicious software:
+	Modern malware frequently takes this form. For instance, bots' first resemble Trojans before acting as worms after they have been run. They are frequently employed as part of more extensive network-wide cyberattacks to target specific users
+
+Adware:
+	Adware bombards users with intrusive and aggressive advertising such as pop ups Malvertising - To spread malware to end-user computers, legitimate advertisements are used in malvertising. Spyware Spyware spies on unaware users, gathering login information, passwords. browsing history and other information
+
+Ransomware:
+	Ransomware infects computers, encrypts files and then, withholds the key required to decrypt them until the victim pays a ransom. Attacks using ransomware that target businesses and the government are increasing, costing victims millions of dollars as some pay the attackers to restore critical systems. One of the most prevalent and well-known ransomware families is Cryptolocker, which is also known as Petya or Loky
+
+EXAMPLES OF MALWARE ATTACKS
+Here are a few examples of various types of malware utilised by cyber attackers to target sensitive data
+
+- The most popular malware for stealing credentials and passwords is Pony matware. It is also referred to as FarelT pony loader or pony stealer Pony malware targets Windows machines and gathers data on the network's users and the system itself. It sends stolen credentials to command and control server or to download additional malware
+
+ - An information-stealing malware called Loki, also known as Loki-Bot, targets user names and passwords in about 80 programs including all popular browsers, email clients. remote control software and file-sharing software After 2016. & has been a common technique utilised by online criminals to steal credentials and access user data
+
+- The Matears as a Service (MaaS) Krypton Staater first surfaced in early 2019 and is offered on foreign forums for just $100 in cryptocurrency. It steals credentials from Windows machines running versions 7 and up without the requirement for administrator access. The malware also tries to get access to credit card numbers and other sensitive Information that is stored in browsers such as browsing history, auto-completion download lists, cookies and search history
+
+- One of the first known malware attacks of its kind, the Triton malware, paralysedoperations at a crucial infrastructure facility in the Middle East in 2017. The malware is called Triconex Safety frestrumented System (S15) controllers, named after the system it targets. In the event of a problem, such as an equipment failure, an explosion or a fire, these systems shuts down operations in nuclear facilities, oil and gas plants and other facilities. These falsafe mechanisms am intended to be disabled by the Triton malware, which could result in phryucal attacks on important infrastructure and possible human harm
+
+HOW TO PREVENT MALWARE ATTACKS
+Organisations often take following steps to improve protection against and detection of malware wehind hurting teusiness productivity
+
+-Install anti virus toots to protect against common and known malware 
+-To continuously monitor and react to malware attacks and other cyberthreats on end-user
+machines, utilise endpoint detection and response technology 
+-When it comes to patching applications and operating systems, it's important to follow best practices
+-Instead of giving users full access to systems and applications, limit their privileges to only what they require to perform their job functions. This helps reduce the risk of accidental or intentional misuse of privileged accounts
+-To improve security and reduce the risk of cyberattacks, it is important to remove local administrator rights from standard user accounts
+-Application of greylisting on user endpoints to stop unknown programs from connecting to the Internet and obtaining the read, write and modify permissions necessary to encrypt files such as fresh ransomware instances
+-By implementing application whitelisting on servers, organisations can significantly enhance the protection of their valuable digital assets by allowing only approved and trusted applications to run, while preventing unauthorised software from executing
+-Enable efficient disaster recovery, endpoints and servers frequently and automatically backup their data
+
+MAC-Based Attacks
+A data link layer faciatates communication between two hosts that are directly connected t converts the data stream into signals and sends them to the sending hardware However as a focamper receives data in the form of electrical signals and converts them into a usable frame
+
+Media Access Control (MAC) which is a component of the data link layer handles the physical addressing Manufacturers give each network adapter a unique MAC address that is sends data
+to the destination host. If a device has multiple network adapters such as Ethernet Wi-Fi, Bluetooth and so on, each standard would have a unique MAC address.
+
+MAC Flooding is a cyberattack in which an attacker floods layer 2 switches with bogus MAC addresses in an attempt to compromise their security. A switch does not broadcast network packets to the entire network and preserves network integrity by separating data and utilising Virtual Local Area Network (VLANs).
+
+The goal of a MAC flooding attack is to steal data being transferred into a network from a victim's system. It can be accomplished by forcing the switch's proper MAC table contents and unicast behaviour out. This results in the transfer of sensitive data to other parts of the network, ultimately transforming the switch into a hub and causing significant numbers of incoming frames to flood out on all ports. Consequently, this attack is also known as the MAC address table overflowing attack.
+
+The attacker utilises an ARP spoofing attack as a shadow attack to keep getting to private data after network switches have recovered from an initial MAC flooding attack.
+
+To quickly fill up the table, the attacker sends a lot of requests to the switch, each of which has a fake MAC address. When the MAC table cannot hold any more addresses, they are replaced with new ones.
+
+After all valid MAC addresses have been removed, the switch turns into a network hub by sending all packets to each switch port. Now, when two real users try to talk to each other, their data is sent to all open ports. This is called a MAC table flooding attack. All authorised users will now be able to submit entries until this is completed. In such instances, malicious entities join a network and send malicious data packets to the user's computer
+
+As a result, the attacker will be able to capture all inbound and outbound traffic passing through the user's system and sniff out any sensitive information it contains
+
+DHCP Attacks
+
+In a database, DHCP servers store information about TCP/IP configuration such as valid TCP/IP configuration parameters, valid IP addresses and the time the server will lease an IP address to a client. It provides address configurations in the form of a lease offer to DHCP-enabled clients
+
+-The client broadcasts a DHCPDISCOVER/SOLICIT request requesting DHCP configuration data. 
+-The DHCP-relay agent gets the request from the client and sends it to the DHCP servers on the network. 
+-The DHCP server sends out a message called DHCPOFFER/ADVERTISE that has the MAC addresses of both the client and the server 
+-The relay agent sends a DHCP offer or advertisement to the client's subnet
+-The client sends a DHCPREQUEST request to the DHCP server to ask for information about how DHCP is set up .
+-The DHCP server then, sends the client a unicast DHCPACK/REPLY message with the IP configuration and details 
+
+DHCP Starvation Attack:
+This is a DoS attack against the DHCP servers. The attacker sends out fake DHCP requests and tries to lease all available DHCP addresses in the scope So, a legitimate user cannot get or renew an IP address requested through DHCP This implies they cannot get on the network
+
+Rogue DHCP Server Attack:
+An attacker installs a malicious DHCP server in the subnet and responds to DHCP queries with falsified IP addresses, thereby gaining unauthorised network access.
+
+Spoofing Attacks
+In the context of cybersecurity, spoofing is the act of impersonating another entity in an attempt to gain our trust, gain access to our systems, steal information, steal money or spread malware.
+
+There are numerous forms of spoofing attacks, including:
+
+Email spoofing
+Website and/or URL spoofing
+Caller ID spoofing
+Text message spoofing
+GPS spoofing
+Man-in-the-middle attacks.
+Extension spoofing.
+IP spoofing
+Facial spoofing
+
+Many a times, cybercriminals utilise trusted brand names in social engineering attacks. This is a common tactic to exploit an individuals' trust and persuade them to perform certain actions that can compromise their security. A spoof email from PayPal or Amazon, for instance, asks about purchases the user never made. The user is then, prompted to click a link provided in the message that is designed to appear urgent and important, with the intention of prompting the user to take immediate action to resolve a perceived problem with their account.
+
+Scammers then utilise that malicious link to direct the user to a Website that downloads malware or a phoney login page with a well-known logo and a spoof URL in order to collect the individual's username and password. There are numerous additional ways a spoofing attack can proceed Fraudsters causing the spoofing attack exploit the trust of their victims, who unknowingly fall for the fake, especially if they do not question the reliability of a Website or scrutinise suspicious emails carefully
+
+Man-in-The-Middle (MITM) Attacks
+A MITM attack is a type of cyber-attack in which a user is introduced to two parties during some sort of meeting, manipulates both parties and gains access to the data that the two parties were attempting to deliver to one another A man-in-the-middle (MITM) attack happens when an attacker places himself in the middle of a client and a Web page. There are many ways to commit this type of assault
+
+For instance, a fake banking Website can be utilised to intercept financial login information. The fake Website is in the middle of the user and the legitimate bank Website
+
+Denial-of-Service (DoS) and Distributed Denial-of-Service (DDoS) Attack
+-A DoS attack removes a machine or network by overloading it. Attackers accomplish this by flooding the target with more traffic than it can handle, causing it to crash and unable to serve its typical users. Email, online banking, Websites and any other service reliant on a targeted network or computer could serve as examples of targets.
+
+DoS attacks come in various forms, including outages and flood attacks. Attacks that utilise all of the targeted infrastructure's memory or storage resources slow down or completely stop the service due to resource exhaustion. Flood attacks send excessive packets, more than the server can handle.
+
+A type of DoS attack known as a "Distributed Denial-of-Service" (DDoS) attack spreads the traffic to overwhelm the target across several servers. Utilising this technique, the attack cannot be stopped simply by preventing traffic from reaching its source DDoS attacks frequently utilise botnets
+
+Types of DDoS Attacks
+-SMURF ATTACK - Smurf attacks are DDoS attacks that send packets with the victim's source IP spoofing. The amount of traffic slows down the targeted device so much that it cannot be utilised when nodes on the network attempt to respond.
+
+-SYN FLOOD-In an SYN flood attack, many connections are made to the target server and are never closed. The attacker sends an SYN message while posing as a client. The Rogue client never sends an ACK message in response to an SYN-ACK from the server This forces the server to keep a lot of connections open, which exhausts all of its resources until it crashes.
+
+-Layer 7 DDOS Attack-Layer 7 DDoS attack, also known as an application attack, targets one service instead of the whole network. These are more frequent than wide-scale network attacks now.
+
+Protection Against Denial-of-Service Attacks
+
+DDoS attacks can still pose a serious threat, even though DoS attacks are easier to stop or prevent
+
+-Spoofing can be stopped by making sure that the traffic's source address matches the set of addresses for the site it claims to come from and by utilising filters to stop dial-up connections from spoofing
+
+-Limit broadcasting Attacks often send requests to every network device that strengthens the attack. Attacks can be prevented by limiting or disabling broadcast forwarding whenever possible Whenever possible, users can also turn OFF the Echo and Chargen services
+
+-Streamline incident response which helps the security team to respond quickly to DoS attacks
+
+-Ensure that all endpoints are patched to avoid known vulnerabilities
+
+-Firewalls should be dialled in to limit traffic entering and leaving the perimeter as much as possible
+
+-Monitor the network. The more familiar one is with how typical inbound traffic appears, the easier it is to recognise the beginning of a DDoS attack. To maintain a profile of how a network should look (utilising machine learning), real-time visibility with Network Detection and Response (NDR) is an effective and reliable way. This allows to identify suspicious surges as soon as they occur
+
+Session Hijacking Attacks:
+Hackers can get into a target's computer or online accounts by session hijacking method. In a session hijacking attack, a hacker who has to get a user's passwords and personal information takes over the user's browsing session.
+
+What is the Process of Session Hijacking?
+
+A session hijacker takes over a user's session in several ways. One popular technique is to
+intercept user and server communications utilising a packet sniffer that enables the hacker to see the data being sent and received. The attacker can then access private information or log into the account.
+
+Malware can also hijack sessions by infecting the user's computer The hacker now has direct access to the computer and can hijack any running sessions.
+
+What are Different Types of Session Hijacking?
+
+Passive and active session hijacking are both possibilities. During an active session hijacking, the attacker seizes the target's active session. The attacker does this by sending a fake request to the server with the session ID of the target. The attacker is now in an On Path position between the target and the server, also referred to as man-in-the-middle, this attack is more difficult to carry out
+
+Passive session hijacking is when an attacker listens in on network traffic to find out the session ID of a target. This kind of attack is simpler because all the attacker requires to access network traffic is their shared network with the target.
+
+Preventing Session Hijacking
+
+Some ways to prevent session hijacking is summarised as follows.
+-Apply multifactor authentication and strong passwords. If hackers successfully obtain a user's session ID, these strategies prevent access to accounts.
+
+-Session IDs should only be given to reliable sources. Exercise caution when sending links or requests to Websites because these actions contain session IDs.
+
+-A VPN is a solution. It makes it more difficult for attackers to steal session IDs by preventing them from intercepting traffic
+
+-Regularly perform software updates. Keep software and operating systems up-to-date with the most recent security patches to stop attackers from using vulnerabilities to access users sessions
+
+DANGERS OF SESSION HIJACKING ATTACKS
+Risks of not taking action to stop session hijacking are numerous Some of risks are summarised as follows
+
+-Theft of Personal Data - Hackers tend to gain access to sensitive data through session hijacking, including passwords and credit card numbers, that results in identity theft or financial fraud
+
+Malware Contamination - If a hacker obtains the user's session ID, it is possible to infect the user's computer with malware. By doing this, they are able to take over the target's computer and steal victim's data.
+
+DoS Assaults - To disrupt service or bring down the Website, a hacker who takes over a user's session could Jaunch a DoS attack against the server or Website to which they are connected
+
+Route Manipulation Attack
+The routing table, which transmits and receives data, is a feature of each router Unfortunately. the routing table can end up being exposed without proper security and encryption.
+
+When a malicious change is made to the routing tables routine, poisoning of the routing table occurs. By altering the data packets that are routed through the routing table, these aggressive attacks are made possible
+
+As a result of incorrect data being added to the routing table, routing poisoning can seriously harm servers and networks
+
+Password Attacks
+Password attacks are a common method used by hackers to compromise personal and corporate data A password attack involves an unauthorised attempt to steal passwords, which can then be used to gain access to sensitive information. Unfortunately password attacks are becoming increasingly successful due to the vulnerabilities in traditional password systems Hackers are aware that many passwords are poorly designed which makes it an easy to tool to steal data
+
+Following summarises various types of password attacks
+
+- Phishing - Phishing is a type of cyber attack where an attacker poses as a trustworthy entity, such as a well-known company or individual, to deceive the victim into divulging sensitive information, such as login credentials or financial data. The attacker typically uses fraudulent emails, text messages or other communication methods to trick the victim into clicking a link or opening an attachment that leads to a fake Website or malicious software download
+
+- Man-in-the-Middle Attack-Man-in-the-Middle (MitM) attacks happen when a hacker or a system that has been hacked stands between two people or systems that have not been hacked and decodes the data being sent, including passwords.
+
+- Brute Force Attack A brute force attack is a method of cracking a password by systematically trying all possible combinations of characters until the correct one is found. It can be compared to battering ram because it is a forceful and aggressive approach that involves trying every possible combination until the right one is found, same as trying to force a door open with a battering ram. Brute force attacks are often utilised by hackers to gain access to secure systems or networks, so it is important to set strong, complex passwords that are difficult to crack.
+
+- Dictionary Attack - Dictionary attacks, a type of brute force attack, rely on the propensity to choose 'basic words as passwords. Hackers have compiled the most well-liked of these words into cracking dictionaries More sophisticated dictionary attacks use words that are significant to the user personally, such as birthplace a child's riame or the name of a pet 
+
+- Credential Stuffing-  Credential stuffing is a type of cyberattack where hackers utilise stolen usernames and passwords to gain unauthorised access to user accounts. This method is often successful because many people reuse the same passwords across multiple accounts, which can make it easy for hackers to gain access to sensitive information
+
+- Keyloggers Keyloggers are a type of malicious software designed to capture and record every keystroke made by a user The captured keystrokes are then sent to a hacker, who can use the information to gain unauthorised access to sensitive information such as login credentials, financial data or personal information. In most cases, keyloggers are installed on a user's device without their knowledge or consent
+
+Buffer Overflow Attack
+
+When an attacker tries to manipulate the coding error to carry out malicious deeds and compromise the vulnerable system, it results in a buffer overflow attack. The attacker modifies the program's execution path to harm already-existing files or expose data by overwriting parts of the program's memory.
+
+Programming language violations and overwriting buffer boundaries are typical components of a buffer overflow attack
+
+Typically, a buffer overflow vulnerability will appear in the code when:
+
+-It is dependent on outside information to regulate its behaviour It is reliant on data attributes that apply outside of its immediate scope.
+
+-It is so complicated that programmers can't accurately predict its behaviour.
+
+Buffer Overflow Exploits
+Operating system and architecture that a target utilises determine the hacker's choice of buffer overflow exploit methods. However, the additional information they send to a programme will probably contain malicious code, allowing the attacker to start new processes and give the programme new instructions.
+
+For instance, adding new code to a programme gives it new instructions that grant the attacker access to the IT systems of the organisation. In addition, an attacker is able to purposefully enter data that the buffer cannot store if they are aware of the programme's memory layout. They can do this to replace the executable code stored in memory locations with malicious code, allowing them to take over the programme
+
+Attackers can corrupt the execution stack of a Web application run arbitrary code, and take control of a machine using a buffer overflow Both application servers and Web servers are susceptible to buffer overflow flaws particularly in Web applications that utilise library functions such as graphics libraries. Even in the code of a customised Web application, buffer overflows can occur This is more likely because security teams pay them less attention, but they are also harder to hack and less likely to be found by hackers
+
+BUFFER OVERFLOW CONSEQUENCES
+Following are typical effects of a buffer overflow attack
+
+System Crashes - Usually, a buffer overflow attack results in a system crash Programs can become unavailable or causes an endless loop.
+Access Control Loss - A buffer overflow attack frequently utilise arbitrary code outside the parameters of the security policies of programs
+Additional Security Concerns If a buffer overflow attack leads to arbitrary code execution, the attacker tends to utilise it to exploit additional flaws and undermine additional security measures.
+
+VULNERABILITY ANALYSIS AND PENETRATION TESTING
+
+Vulnerability analysis and penetration testing are both important techniques used in cybersecurity to identify potential weaknesses in a system or network
+
+WHAT IS PENETRATION TESTING
+Penetration testing is a security analysis that examines an application's vulnerability It is carried out to identify any potential security risks in the system. Any attacker can interfere with or gan unauthorised access to a system if it is not secured. Security risks typically result from unintentional mistakes during the software's development and implementation, for instance configuration mistakes, design flaws and software bugs
+
+WHY IS PENETRATION TESTING REQUIRED?
+Most of the time, penetration testing looks at how well a system can protect its users, endpoints networks and applications from inside and outside threats It also safeguards security controls and ensures that only authorised users have access. For this reason, penetration testing is crucial Some other reasons are illustrated as follows
+
+-- It describes a simulation environment or how a hacker attacks the system utilising a white hat technique
+
+-- Finding vulnerable points where a hacker can strike and access the computer's functions and data is helpful
+
+-- It aids in the prevention of black hat attacks and protects original data. It makes anestimate of the attack's size for potential clients
+
+-- It shows why putting more money into making technology more secure is essential
+
+WHEN TO CONDUCT PENETRATION TESTING
+
+Penetration testing is an important step that must be done regularly to ensure a system is working correctly. Additionally, it should be conducted in following scenarios:
+
+--A security system finds new dangers from intruders.
+--Whenever network hardware is upgraded.
+--Installation of new software or system updating is performed.
+--Relocation of office.
+--A new end-user programme or policy is set up.
+
+BENEFITS OF PERFORMING PENETRATION TESTING
+
+Advantages of penetration testing are as follows:
+
+--Improves Management System It offers thorough information on security threats. Additionally, it classifies the level of vulnerability and suggests which areas are more or less vulnerable. As a result, by allocating the security resources appropriately, one can manage the security system with ease and accuracy.
+
+-- Penalties - Penetration testing ensures that the primary functions of an organisation are current and adhere fo the auditing system. Thus, the organisation can avoid any kind of penalties in the form of fine.
+
+WHAT IS A VULNERABILITY ASSESSMENT
+
+Vulnerability assessment systematically check for any security flaws in a system. It determines whether the system is vulnerable to any known flaws, rates their seriousness and as necessary, makes remediation or mitigation recommendations.
+
+Examples of threats that vulnerability assessments can stop include code injection attacks, SQL injection. XSS and so on. Software that includes default settings that are not secure such as admin passwords that are easy to guess.
+
+Vulnerability analyses come in a variety of forms described as follows:
+
+--Host assessment checks important servers that are probably attacked if they have not been tested enough or were not made from a tested machine image.
+
+--The assessment of policies and practices to prevent unauthorised access to private or public networks and network-accessible resources is known as network and wireless security
+
+--Database assessment is examining databases or big data systems for flaws and incorrect setups, locating rogue databases or unsafe development and testing environments and categorising sensitive data throughout an organisation's infrastructure
+
+--Application scans are utilised to find security flaws in Web applications and their source code through automated front-end scans or static/dynamic source code analysis
+
+VULNERABILITY ASSESSMENT: SECURITY SCANNING PROCESS
+
+Four steps that make up the security scanning process are illustrated as follows:
+
+--Vulnerability Identification (Testing)
+--VulnerabiLiTy Analysis
+--Risk Assessment
+--Remediation
+
+-- Vulnerability Identification (Testing):
+	This step aims to create a thorough list of an application's vulnerabilities. Security analysts tend to identify if applications, servers or other systems are safe by utilising automated tools to scan them or by testing and evaluating them by hand. Analysts also utilise vulnerability databases, announcements, asset management systems and threat intelligence feeds to find security holes.
+
+--Vulnerability Analysis:
+	Finding the source and underlying cause of the vulnerabilities found in step one is the goal of this step. It entails determining the system elements and vulnerabilities underlying causes for each vulnerability. For instance, an outdated open-source library could be the source of a vulnerability This offers a direct route for corrective action that is, upgrading the library
+
+--Risk Assessment:
+	The primary aim of this step is prioritising vulnerabilities It entails security analysts ranking or scoring each vulnerability according to various criteria, including.
+
+-Which systems are affected?
+-What data is at risk?
+-Which corporate functions are in danger?
+-Easiness of attack
+-The seriousness of the attack.
+-How much harm is brought on by the vulnerability?
+
+-- Remediation:
+	The closing of security gaps is the goal of this step Security personnel. development teams and operations teams typically collaborate to identify the most efficient action for fixing or mitigating each vulnerability
+
+The assessment of vulnerabilities cannot be a one-time task. Organisations must operationalise this process and carry it out repeatedly to be effective Additionally it is essential to promote DevSecOps, that is, integrating security into the development and operations process from the start. This way, organisations can improve the overall security posture of their systems and reduce the risk of data breaches or other security incidents
+
+VULNERABILITY ASSESSMENT TOOLS
+Tools for assessing vulnerabilities are made to automatically look for both new and old threats that could hurt an application. There are various kinds of tools summarised as follows: Scanners for Web applications that look for and simulate well-known attack patterns.
+
+Scanners for protocols that look for open ports and network services Network scanners help analyse how networks are connected and identify red flags such as stray IP addresses, forged packets and the production of suspicious packets from a single IP address
+
+It is best to regularly set up automated scans of all crucial IT systems. These scan results should inform the organisation's ongoing vulnerability assessment process.
+
+WEB SERVER ATTACKS
+Web servers serve as the home for Websites. A Web server is a computer system that runs an operating system and is connected to a database that supports various applications. An attack on the Web server will result from any network, operating system, database or application weakness.
+
+Types of Web Server Attacks
+
+--DoS Attack
+--Phishing Attack
+--Website Defacement
+--Misconfiguration Attacks
+--Directory Traversal
+
+--DoS Attack - An attacker tends to utilise a bug in the application's programming to launch a Denial-of-Service attack or send many service request packets that make it impossible for the Webserver to respond. An example would be a buffer overflow attack. SYN flooding. HTTP gets request flooding or the 'ping of death
+
+--Website Defacement - Attacks using SQL injection are utilised to deface the Website. If an attacker discovers that input fields are not properly sanitised, he can add SQL strings to create a maliciously crafted query that the Web browser runs. When the Website is requested, the database tends to contain malicious or unrelated data that displays irrelevant data, resulting in the display of a defaced Website.
+
+--Directory Traversal - An attacker could exploit this vulnerability to utilise the application to access locations other than the Web root directory For example, it is possible for the attacker to run OS commands, obtain sensitive data or access restricted directories if he can get past the Web root directory.
+
+-- Misconfiguration Attacks - Verbose/error information is not hidden if unnecessary services are enabled or default configuration files are utilised, an attacker can compromise the Web server through various attacks, including password cracking, error-based SQL injection, command injection and so on
+
+-- Phishing Attack - In this attack, the attacker sends the victim an email with a malicious link that appears legitimate but directs them to a malicious Website where the attacker can steal their data Attacks on Web servers can also be caused by things such as buffer overflow, SQL injection, cookie tampering and changing the parameters of a form.
+
+Summary
+➤ Nmap allows for active and passive reconnaissance of connected devices
+➤ Malware is utilised to steal personal, financial or business data with cyber attackers focusing on obtaining privileged credentials and accounts
+➤DDoS attacks utilise botnets to spread traffic across multiple servers, preventing traffic from reaching its source.
+➤SYN flood attack causes the server to keep many connections open utilising its resources until it crashes.
+➤Phishing scams are popular social engineering attacks that ask recipients to reveal personal information, Tollow links to malicious Websites or open malware-infected attachments
+➤Email services with access to threat-sharing platforms can better detect and block them

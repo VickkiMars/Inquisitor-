@@ -1,0 +1,8 @@
+EbookLib
+python-pptx
+python-docx
+trafilatura
+pymupdf
+google-api-core
+pytube
+openai-whisper
