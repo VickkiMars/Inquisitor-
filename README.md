@@ -18,8 +18,7 @@
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/QuestionGen.git
-    ```
+    git clone https://github.com/VickkiMars/Inquisitor-.git
 
 2. Install dependencies:
 
